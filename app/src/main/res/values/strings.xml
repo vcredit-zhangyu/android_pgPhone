@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">掌御手机</string>
+    <string name="app_version_format">V%1$s.%2$s</string>
+    <string name="app_warning">1.禁止升级版本、设置手机密码。请妥善保管，因个人原因造成的损失需赔偿。\n2.测试前，请打开此app并保持后台运行\n3.申请到期请登录管理平台重新申请</string>
+    <string name="commit">提交</string>
+    <string name="dialog_device_id_title">请输入设备唯一号</string>
+    <string name="dialog_device_id_warning">如有两个取IMEI1</string>
+    <string name="dialog_device_id_imei_name">IMEI</string>
+    <string name="qrcode_generate_error">二维码生成异常，请退出重试！</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_feedback_title">意见反馈</string>
+    <string name="dialog_feedback_input_hint">谈谈您的意见吧～</string>
+    <string name="dialog_feedback_input_remind">请输入意见反馈</string>
+    <string name="download_product_title">请选择Android产品</string>
+    <string name="download_product_inner_net_tips">仅支持公司内网下载安装</string>
+    <string name="net_data_error">暂无数据，请稍后重试</string>
+    <string name="download_branch_title">版本列表</string>
+    <string name="download_detail_title">下载页面</string>
+    <string name="download_detail_load_suc">成功加入下载队列</string>
+    <string name="toast_loading">下载中...</string>
+</resources>

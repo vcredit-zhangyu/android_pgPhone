@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.example.qrcode'
+    compileSdk VersionConfig.compileSdkVersion
+
+    defaultConfig {
+        minSdk VersionConfig.minSdkVersion
+        targetSdk VersionConfig.targetSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        forTest {
+            initWith release
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    testImpl.each {
+        testImplementation it.value
+    }
+    androidTestImplBase.each {
+        androidTestImplementation it.value
+    }
+    implementationBase.each {
+        implementation it.value
+    }
+    api 'com.journeyapps:zxing-android-embedded:4.3.0'
+}

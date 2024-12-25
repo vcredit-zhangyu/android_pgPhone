@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 指定设备超级管理员所拥有的权限 -->
+    <uses-policies>
+
+        <set-global-proxy /><!--设置全局代理-->
+
+    </uses-policies>
+</device-admin>

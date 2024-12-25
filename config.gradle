@@ -1,0 +1,48 @@
+ext {
+
+    VersionConfig = [
+            packageName      : "com.example.pgphone",
+            compileSdkVersion: 33,
+            buildToolsVersion: "33.0.2",    // 暂未使用
+            minSdkVersion    : 21,
+            targetSdkVersion : 33,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+    ]
+
+    testImpl = [
+            junit: 'junit:junit:4.13.2'
+    ]
+
+    androidTestImplBase = [
+            androidxJunit   : 'androidx.test.ext:junit:1.1.3',
+            androidxEspresso: 'androidx.test.espresso:espresso-core:3.4.0',
+    ]
+
+    implementationBase = [
+            androidxCore: 'androidx.core:core-ktx:1.8.0'
+    ]
+
+    support = [
+            appcompat: 'androidx.appcompat:appcompat:1.4.1',
+            material : 'com.google.android.material:material:1.5.0',
+    ]
+
+    thirdFrame = [
+            gson              : "com.google.code.gson:gson:2.8.8",
+            okhttp            : "com.squareup.okhttp3:okhttp:3.11.0",
+            okhttp_interceptor: "com.squareup.okhttp3:logging-interceptor:3.10.0",
+            kotlin_coroutines : "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0", // kotlin协程支持
+    ]
+
+    lib_network = [
+            appcompat         : support.appcompat,
+            material          : support.material,
+            gson              : thirdFrame.gson,
+            okhttp            : thirdFrame.okhttp,
+            okhttp_interceptor: thirdFrame.okhttp_interceptor,
+            kotlin_coroutines : thirdFrame.kotlin_coroutines,
+    ]
+
+
+}

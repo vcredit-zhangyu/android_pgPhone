@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SettingItemView">
+        <attr name="showDivider" format="boolean" />
+        <attr name="itemTitle" format="string" />
+        <attr name="itemContent" format="string" />
+
+        <attr name="iconText" format="string" />
+        <attr name="itemName" format="string" />
+        <attr name="contentHint" format="string" />
+        <attr name="contentText" format="string" />
+        <attr name="contentTextColor" format="color" />
+        <attr name="tipText" format="string" />
+        <attr name="tipImage" format="reference" />
+        <attr name="tipTextColor" format="color" />
+        <attr name="contentEditable" format="boolean" />
+        <attr name="showArrow" format="boolean" />
+        <attr name="iconImage" format="reference" />
+        <attr name="avatarImage" format="reference" />
+        <attr name="isDark" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseToolbar">
+        <attr name="leftIcon" format="reference" />
+        <attr name="leftText" format="string" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="leftTextColor" format="reference|color" />
+        <attr name="middleTitleText" format="string" />
+        <attr name="middleTitleSize" format="dimension" />
+        <attr name="middleTitleColor" format="reference|color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="rightTextColor" format="reference|color" />
+        <attr name="titleBackgroundColor" format="reference|color" />
+        <attr name="titleType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="showService" value="1" />
+            <enum name="showSetting" value="2" />
+            <enum name="withRightText" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_alpha50">#80FFFFFF</color>
+
+    <color name="common_333">#FF333333</color>
+    <color name="common_666">#FF666666</color>
+    <color name="common_999">#FF999999</color>
+    <color name="common_activity_bg">#FFE5F4FF</color>
+
+    <color name="common_f2f2f2">#FFF2F2F2</color>
+    <color name="common_f4f6fa">#FFF4F6FA</color>
+    <color name="common_557aa4">#FF557AA4</color>
+    <color name="common_5579a4">#FF5579A4</color>
+    <color name="common_ff5a40">#FFFF5A40</color>
+    <color name="common_00b9c8">#FF00B9C8</color>
+    <color name="common_d8d8d8">#FFD8D8D8</color>
+    <color name="common_1f70cf">#FF1F70CF</color>
+    <color name="common_214071">#FF214071</color>
+    <color name="common_f4f4f4">#FFF4F4F4</color>
+    <color name="common_98e2e9">#FF98E2E9</color>
+    <color name="common_e6f8ff">#FFE6F8FF</color>
+    <color name="common_00b9c8_alpha80">#CC00B9C8</color>
+    <color name="common_e5f4ff_alpha60">#99E5F4FF</color>
+    <color name="common_eeeeee">#FFEEEEEE</color>
+    <color name="common_black_alpha70">#B3000000</color>
+
+</resources>
